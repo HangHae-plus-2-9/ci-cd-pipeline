@@ -9,10 +9,10 @@
   - [ ]  `alpha` 브랜치에 푸시하면 `alpha` 환경으로 배포합니다.
   - [ ]  `main` 브랜치에 푸시하면 `prod` 환경으로 배포합니다.
 - [ ]  AWS ECR/ECS 를 통해 CI/CD 파이프라인을 구성합니다.
-  - [ ] 계정세팅
-  - [ ] 인프라 세팅 - VPC...
+  - [ ] 계정세팅 - 각자 계정 + 팀 계정(팀장님)
+  - [ ] 인프라 세팅 - vpc / network / security 등
   - [ ] Docker, Docker-Compose yaml 작성
-  - [ ] ECR/ECS 배포 파이프라인 구성
+  - [ ] github action yaml 작성 (ECR, fargate)
 - [ ]  배포 파이프라인 및 협업 정책을 문서화 합니다.
   - [ ]  Organization 계정에 CI/CD 레포지토리를 생성합니다.
 
